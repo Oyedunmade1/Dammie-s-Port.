@@ -16,7 +16,7 @@ const AllRightsReservedFooter = ({ darkMode }) => {
           //   data-aos="fade-up"
           //   data-aos-duration="1000"
         >
-          © 2024 Your Name. All rights reserved.
+          © 2024 Damilola Oyedunmade. All rights reserved.
         </p>
       </div>
     </div>

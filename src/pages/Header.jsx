@@ -41,13 +41,16 @@ const Header = () => {
         <h1 className="text-5xl text-gray-800 dark:text-neutral-100 2xl:text-6xl font-bold">
           Oyedunmade Damilola Khadijat
         </h1>
-        <p className="text-lg pt-2 text-white">
+        <p className="text-lg pt-2 ">
           <span className="font-bold text-[#E01b84]">A Frontend Developer</span>{" "}
-          | <span className="font-bold text-white">Technical Writer</span>
+          |{" "}
+          <span className="font-bold text-black dark:text-white">
+            Technical Writer
+          </span>
         </p>
         <div className="mt-10 flex gap-10">
           <a href="">
-            <button className="bg-[#E01b84] text-lg text-gray-800 dark:text-neutral-100 font-semibold rounded-md py-2 px-4 hover:bg-pink-800">
+            <button className="bg-[#E01b84] text-lg text-black dark:text-neutral-100 font-semibold rounded-md py-2 px-4 hover:bg-pink-800">
               Download CV
             </button>
           </a>

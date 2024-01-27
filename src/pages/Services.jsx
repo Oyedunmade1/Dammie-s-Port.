@@ -50,7 +50,7 @@ const Services = ({ darkMode }) => {
           data-aos-duration="3000"
         >
           <div className={`${cardStyle} w-80 h-60`}>
-            <FiMonitor className="text-4xl dark:text-[#E01b84] text-black  " />
+            <FiMonitor className="text-4xl text-[#E01b84]" />
             <h3 className="text-lg font-bold mb-2 dark:text-white">
               Web Development
             </h3>
@@ -59,7 +59,7 @@ const Services = ({ darkMode }) => {
             </p>
           </div>
           <div className={`${cardStyle} w-80 h-60`}>
-            <FaPaintBrush className="text-4xl dark:text-[#E01b84] text-black" />
+            <FaPaintBrush className="text-4xl text-[#E01b84] " />
             <h3 className="text-lg font-bold mb-2 dark:text-white">
               UI Designs
             </h3>
@@ -68,7 +68,7 @@ const Services = ({ darkMode }) => {
             </p>
           </div>
           <div className={`${cardStyle} w-80 h-60`}>
-            <FaPen className="text-4xl dark:text-[#e01b84] text-black" />
+            <FaPen className="text-4xl text-[#e01b84] " />
             <h3 className="text-lg font-bold mb-2 dark:text-white">
               Technical Writing
             </h3>

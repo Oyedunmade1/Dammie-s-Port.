@@ -32,6 +32,11 @@ const CertificatesAndAwards = () => {
       imageSrc:
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1705584188931/939acf43-f0b6-472c-9e0c-d34c02d5586b.jpeg",
     },
+    {
+      title: "Award of Appreciation (JCI Nigeria, UNIABUJA.)",
+      imageSrc:
+        "https://cdn.hashnode.com/res/hashnode/image/upload/v1706346005404/3f2a60d5-2a0a-4641-abf1-0cec4d690f5f.png",
+    },
   ];
 
   const settings = {

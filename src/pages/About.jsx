@@ -39,14 +39,14 @@ const AboutMe = () => {
           data-aos="zoom-out-down"
           data-aos-duration="2000"
         >
-          <CiMail className="text-4xl  bg-white rounded-full p-2" />
+          <CiMail className="text-4xl  text-black dark:text-white rounded-full p-2" />
 
-          <div className=" text-white text-lg font-bold font-['DM Sans']">
+          <div className=" text-black dark:text-white text-lg font-bold font-['DM Sans']">
             Email
           </div>
           <a
             href="https://twitter.com/your-twitter-handle"
-            className=" text-white text-lg font-normal font-['DM Sans']"
+            className=" text-black dark:text-white text-lg font-normal font-['DM Sans']"
           >
             doyedunmade@gmail.com
           </a>
@@ -56,14 +56,14 @@ const AboutMe = () => {
           data-aos="zoom-out-down "
           data-aos-duration="2000"
         >
-          <FaGithub className="text-4xl  bg-white rounded-full p-2" />
+          <FaGithub className="text-4xl  text-black dark:text-white rounded-full p-2" />
 
-          <div className=" text-white text-lg font-bold font-['DM Sans']">
+          <div className=" text-black dark:text-white text-lg font-bold font-['DM Sans']">
             GitHub
           </div>
           <a
             href="#"
-            className=" text-white text-lg font-normal font-['DM Sans']"
+            className="text-black dark:text-white text-lg font-normal font-['DM Sans']"
           >
             doyedunmade@gmail.com
           </a>
@@ -75,12 +75,12 @@ const AboutMe = () => {
         >
           <FaLinkedin className="text-4xl  bg-white rounded-full p-2" />
 
-          <div className=" text-white text-lg font-bold font-['DM Sans']">
+          <div className=" text-black dark:text-white text-lg font-bold font-['DM Sans']">
             LinkedIn
           </div>
           <a
             href="#"
-            className=" text-white text-lg font-normal font-['DM Sans']"
+            className=" text-black dark:text-white text-lg font-normal font-['DM Sans']"
           >
             doyedunmade@gmail.com
           </a>
@@ -90,9 +90,9 @@ const AboutMe = () => {
           data-aos="zoom-out-down"
           data-aos-duration="2000"
         >
-          <FaMedium className="text-4xl  bg-white rounded-full p-2" />
+          <FaMedium className="text-4xl bg-white text-black rounded-full p-2" />
 
-          <div className=" text-white text-lg font-bold font-['DM Sans']">
+          <div className=" text-black dark:text-white text-lg font-bold font-['DM Sans']">
             Medium
           </div>
           <a

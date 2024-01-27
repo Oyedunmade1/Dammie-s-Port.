@@ -1,5 +1,12 @@
 import React, { useEffect } from "react";
-import { FaHtml5, FaCss3, FaJs, FaGithub, FaFigma } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaGithub,
+  FaReact,
+  FaFigma,
+} from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -48,11 +55,17 @@ const Skills = ({ darkMode }) => {
                 />
                 <h1>JavaScript</h1>
               </div>
+              <div className="text-center  ">
+                <FaReact
+                  className={`text-6xl rounded-full p-2 border-white border-2  text-black dark:text-white`}
+                />
+                <h1>React.js</h1>
+              </div>
             </div>
             <div className="flex flex-col gap-32 justify-evenly lg:flex-row">
               <div className="text-center">
                 <FaGithub
-                  className={`text-6xl rounded-full p-2 border-white border-2 text-white`}
+                  className={`text-6xl rounded-full p-2 border-white border-2 text-black dark:text-white`}
                 />
                 <h1>GitHub</h1>
               </div>
@@ -87,23 +100,20 @@ const Skills = ({ darkMode }) => {
               </li>
               <li className="flex gap-1 items-center font-medium">
                 <BsPatchCheckFill className="text-20 text-white dark:text-white" />
-                <span>Time Management</span>
+                <span>Communication</span>
               </li>
               <li className="flex gap-1 items-center font-medium">
                 <BsPatchCheckFill className="text-20 text-white dark:text-white" />
-                <span>Time Management</span>
+                <span>Adaptive Learner</span>
               </li>
               <li className="flex gap-1 items-center font-medium">
                 <BsPatchCheckFill className="text-20 text-white dark:text-white" />
-                <span>Time Management</span>
+                <span>Problem Solver</span>
               </li>
-
-              {/* <li>Communication</li>
-              <li>Adaptive Learner</li>
-              <li>Detail Listener</li>
-              <li>Problem Solver</li>
-              <li>Collaborative</li>
-              <li>Team Player</li> */}
+              <li className="flex gap-1 items-center font-medium">
+                <BsPatchCheckFill className="text-20 text-white dark:text-white" />
+                <span>Detail Listener</span>
+              </li>
             </ul>
           </div>
         </div>
