@@ -70,7 +70,7 @@ const MyProjects = () => {
         <ProjectCard
           title="A Hotel Website "
           description="A Website built for Rosewood Hotels and resorts that allows users discover luxurious comfort and exquisite service and book a stay for ablend of elegance and relaxation."
-          imageUrl="https://cdn.hashnode.com/res/hashnode/image/upload/v1705924288100/b7a3db09-45bd-4f10-9628-147a875f733c.png"
+          imageUrl="https://cdn.hashnode.com/res/hashnode/image/upload/v1706363984867/2e3a67e9-0c72-4ef3-9759-98cb1e5e16f9.png"
           githubLink="https://github.com/example/project3"
           vercelLink="https://hotel-website-woad.vercel.app/"
         />
