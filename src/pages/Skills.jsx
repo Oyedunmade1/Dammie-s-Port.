@@ -99,19 +99,19 @@ const Skills = ({ darkMode }) => {
                 <span>Time Management</span>
               </li>
               <li className="flex gap-1 items-center font-medium">
-                <BsPatchCheckFill className="text-20 text-white dark:text-white" />
+                <BsPatchCheckFill className="text-20 text-black dark:text-white" />
                 <span>Communication</span>
               </li>
               <li className="flex gap-1 items-center font-medium">
-                <BsPatchCheckFill className="text-20 text-white dark:text-white" />
+                <BsPatchCheckFill className="text-20 text-black dark:text-white" />
                 <span>Adaptive Learner</span>
               </li>
               <li className="flex gap-1 items-center font-medium">
-                <BsPatchCheckFill className="text-20 text-white dark:text-white" />
+                <BsPatchCheckFill className="text-20 text-black dark:text-white" />
                 <span>Problem Solver</span>
               </li>
               <li className="flex gap-1 items-center font-medium">
-                <BsPatchCheckFill className="text-20 text-white dark:text-white" />
+                <BsPatchCheckFill className="text-20 text-black dark:text-white" />
                 <span>Detail Listener</span>
               </li>
             </ul>

@@ -39,7 +39,7 @@ const AboutMe = () => {
           data-aos="zoom-out-down"
           data-aos-duration="2000"
         >
-          <CiMail className="text-4xl  text-black dark:text-white rounded-full p-2" />
+          <CiMail className="text-4xl bg-black dark:bg-white text-white dark:text-black rounded-full p-2" />
 
           <div className=" text-black dark:text-white text-lg font-bold font-['DM Sans']">
             Email
@@ -56,7 +56,7 @@ const AboutMe = () => {
           data-aos="zoom-out-down "
           data-aos-duration="2000"
         >
-          <FaGithub className="text-4xl  text-black dark:text-white rounded-full p-2" />
+          <FaGithub className="text-4xl bg-black dark:bg-white text-white dark:text-black rounded-full p-2" />
 
           <div className=" text-black dark:text-white text-lg font-bold font-['DM Sans']">
             GitHub
@@ -73,7 +73,7 @@ const AboutMe = () => {
           data-aos="zoom-out-down"
           data-aos-duration="2000"
         >
-          <FaLinkedin className="text-4xl  bg-white rounded-full p-2" />
+          <FaLinkedin className="text-4xl bg-black dark:bg-white text-white dark:text-black rounded-full p-2" />
 
           <div className=" text-black dark:text-white text-lg font-bold font-['DM Sans']">
             LinkedIn
@@ -90,7 +90,7 @@ const AboutMe = () => {
           data-aos="zoom-out-down"
           data-aos-duration="2000"
         >
-          <FaMedium className="text-4xl bg-white text-black rounded-full p-2" />
+          <FaMedium className="text-4xl bg-black dark:bg-white text-white dark:text-black rounded-full p-2" />
 
           <div className=" text-black dark:text-white text-lg font-bold font-['DM Sans']">
             Medium
