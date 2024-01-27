@@ -49,7 +49,11 @@ const Header = () => {
           </span>
         </p>
         <div className="mt-10 flex gap-10">
-          <a href="">
+          <a
+            href="./src/assets/OyedunmadeResume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="bg-[#E01b84] text-lg text-black dark:text-neutral-100 font-semibold rounded-md py-2 px-4 hover:bg-pink-800">
               Download CV
             </button>
