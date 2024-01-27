@@ -32,7 +32,7 @@ const Skills = ({ darkMode }) => {
         {/* Technical Skills */}
         <div className={technicalSkillsCardStyle} data-aos="flip-left">
           <div className="flex flex-col justify-center gap-16 items-center text-gray-800 dark:text-neutral-300 font-medium">
-            <div className="flex flex-wrap gap-4 justify-center">
+            <div className="flex flex-wrap gap-10 justify-center">
               <SkillIcon icon={<FaHtml5 />} label="HTML" color="text-red-500" />
               <SkillIcon icon={<FaCss3 />} label="CSS" color="text-blue-500" />
               <SkillIcon
@@ -45,6 +45,8 @@ const Skills = ({ darkMode }) => {
                 label="React.js"
                 color="text-black dark:text-white"
               />
+            </div>
+            <div className="flex flex-wrap gap-10 justify-center">
               <SkillIcon
                 icon={<FaGithub />}
                 label="GitHub"

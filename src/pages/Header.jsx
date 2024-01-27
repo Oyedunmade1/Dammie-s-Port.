@@ -60,7 +60,7 @@ const Header = () => {
       <div className="flex items-center justify-center w-full md:w-1/2">
         <div className="relative w-[240px] h-[240px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px] rounded-full border border-gray-600 dark:border-gray-200 p-4">
           <img
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706359352783/b74ef2a4-3073-45d3-9a79-2cbab8344c14.jpeg"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1704460532663/412b66c4-3496-45c1-a278-e15502d73f8e.png"
             className="w-full h-full object-cover rounded-full"
             alt="Profile Image"
           />

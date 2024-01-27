@@ -21,7 +21,7 @@ function App() {
   };
   return (
     <div
-      className={`w-full h-full min-h-[100vh] bg-[#FCF2F4] ${
+      className={`font-['Karla'] w-full h-full min-h-[100vh] bg-[#FCF2F4] ${
         darkMode && "dark"
       }`}
     >
