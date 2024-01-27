@@ -45,7 +45,7 @@ const AboutMe = () => {
             Email
           </div>
           <a
-            href="https://twitter.com/your-twitter-handle"
+            href="doyedunmade@gmail.com"
             className=" text-black dark:text-white text-lg font-normal font-['DM Sans']"
           >
             doyedunmade@gmail.com
@@ -62,10 +62,10 @@ const AboutMe = () => {
             GitHub
           </div>
           <a
-            href="#"
+            href="https://github.com/Oyedunmade1"
             className="text-black dark:text-white text-lg font-normal font-['DM Sans']"
           >
-            doyedunmade@gmail.com
+            Oyedunmade1
           </a>
         </div>
         <div
@@ -79,10 +79,10 @@ const AboutMe = () => {
             LinkedIn
           </div>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/damilola-oyedunmade/"
             className=" text-black dark:text-white text-lg font-normal font-['DM Sans']"
           >
-            doyedunmade@gmail.com
+            Damilola Oyedunmade
           </a>
         </div>
         <div
@@ -96,10 +96,10 @@ const AboutMe = () => {
             Medium
           </div>
           <a
-            href="https://twitter.com/your-twitter-handle"
+            href="https://medium.com/@doyedunmade"
             className=" text-white text-lg font-normal font-['DM Sans']"
           >
-            doyedunmade@gmail.com
+            Damilola Oyedunmade
           </a>
         </div>
       </div>

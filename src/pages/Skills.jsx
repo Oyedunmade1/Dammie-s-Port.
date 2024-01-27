@@ -22,67 +22,44 @@ const Skills = ({ darkMode }) => {
   const technicalSkillsCardStyle = `bg-white dark:bg-[#000C1D] p-6 rounded-md shadow-lg mb-6 transition-colors data-aos="zoom-in" w-full md:w-2/3`;
   const softSkillsCardStyle = `bg-white dark:bg-[#000C1D] p-6 rounded-md shadow-lg mb-6 transition-colors  data-aos="zoom-in" w-full md:w-1/3`;
 
-  // const iconStyle = `text-4xl mb-4 ${darkMode ? "" : "text-gray-800"}`;
-
   return (
     <div name="Skills" className={skillsContainerStyle} data-aos="zoom-in">
       <h2 className="text-3xl text-center font-bold text-gray-800 dark:text-neutral-100 mb-8">
         My <span className="text-[#E01b84]">Skills</span>
       </h2>
 
-      <div className="flex flex-row gap-10 justify-around">
+      <div className="flex flex-col md:flex-row gap-10 justify-around">
         {/* Technical Skills */}
         <div className={technicalSkillsCardStyle} data-aos="flip-left">
           <div className="flex flex-col justify-center gap-16 items-center text-gray-800 dark:text-neutral-300 font-medium">
-            <div className="flex flex-col gap-32 justify-evenly lg:flex-row">
-              <div className="text-center  ">
-                <FaHtml5
-                  className={`text-6xl rounded-full p-2 border-white border-2 text-red-500`}
-                />
-                <h1>HTML</h1>
-              </div>
-
-              <div className="text-center  ">
-                <FaCss3
-                  className={`text-6xl rounded-full p-2 border-white border-2  text-blue-500`}
-                />
-                <h1>CSS</h1>
-              </div>
-
-              <div className="text-center  ">
-                <FaJs
-                  className={`text-6xl rounded-full p-2 border-white border-2  text-yellow-500`}
-                />
-                <h1>JavaScript</h1>
-              </div>
-              <div className="text-center  ">
-                <FaReact
-                  className={`text-6xl rounded-full p-2 border-white border-2  text-black dark:text-white`}
-                />
-                <h1>React.js</h1>
-              </div>
-            </div>
-            <div className="flex flex-col gap-32 justify-evenly lg:flex-row">
-              <div className="text-center">
-                <FaGithub
-                  className={`text-6xl rounded-full p-2 border-white border-2 text-black dark:text-white`}
-                />
-                <h1>GitHub</h1>
-              </div>
-
-              <div className="text-center">
-                <SiTailwindcss
-                  className={`text-6xl rounded-full p-2 border-white border-2  text-blue-300`}
-                />
-                <h1>Tailwindcss</h1>
-              </div>
-
-              <div className="text-center ">
-                <FaFigma
-                  className={`text-6xl rounded-full p-2 border-white border-2 text-purple-500`}
-                />
-                <h1>Figma</h1>
-              </div>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <SkillIcon icon={<FaHtml5 />} label="HTML" color="text-red-500" />
+              <SkillIcon icon={<FaCss3 />} label="CSS" color="text-blue-500" />
+              <SkillIcon
+                icon={<FaJs />}
+                label="JavaScript"
+                color="text-yellow-500"
+              />
+              <SkillIcon
+                icon={<FaReact />}
+                label="React.js"
+                color="text-black dark:text-white"
+              />
+              <SkillIcon
+                icon={<FaGithub />}
+                label="GitHub"
+                color="text-black dark:text-white"
+              />
+              <SkillIcon
+                icon={<SiTailwindcss />}
+                label="Tailwindcss"
+                color="text-blue-300"
+              />
+              <SkillIcon
+                icon={<FaFigma />}
+                label="Figma"
+                color="text-purple-500"
+              />
             </div>
           </div>
         </div>
@@ -121,5 +98,14 @@ const Skills = ({ darkMode }) => {
     </div>
   );
 };
+
+const SkillIcon = ({ icon, label, color }) => (
+  <div className="text-center">
+    {React.cloneElement(icon, {
+      className: `text-6xl rounded-full p-2 border-white border-2 ${color}`,
+    })}
+    <h1>{label}</h1>
+  </div>
+);
 
 export default Skills;
